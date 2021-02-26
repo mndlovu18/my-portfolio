@@ -25,95 +25,113 @@
     <!--========= Header ========-->    
     <header>
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-12">
-                <nav class="nav-menu">
+            <div class="row nav-menu d-flex justify-content-center">
+                <div class="col-lg-12">
+                <nav>
                     <ul>
-                    <li><a href="#!">About</a></li> 
-                    <li><a href="#!">Projects</a></li> 
-                    <li><a href="#!">Resume</a></li> 
-                    <li><a href="#!">Blog</a></li> 
+                    <li><a href="#!">About</a></li> | 
+                    <li><a href="#!">Projects</a></li> |
+                    <li><a href="#!">Resume</a></li> |
+                    <li><a href="#!">Blog</a></li> |
                     <li><a href="#!">Contact</a></li> 
                     </ul>
                 </nav>
+                </div>                
+            </div>
+            <div class="row" id="hero">
+                <div class="col-md-12">
+                    <div><p> &quot I want the power to change the perception of what a women in engineering looks like &quot</p></div>
+                    <div class="about-btn"><a href="#about">ABOUT ME</a></div>
                 </div>
             </div>
         </div>
     </header> <!--End Header-->
-
-    <!--========= Hero Section ========-->
-    <section id="hero" class="d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div><h1>Minolta Ndlovu</h1></div>
-                    <di><p>A front-end developer from Bulawayo, Zimbabwe</p></div>
-                    <div><a href="#!">About me</a></div>
-                </div>
-            </div>
-        </div>
-    </section>
    
     <!--========= About Me Section ========-->
     <main class="main">
-        <section id="about" class="about">
+        <section id="about" class="about mt-5">
             <div class="container">
                 <div class="section-title">
                     <h1>About</h1>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="img/head_shot.jpg" class="img-fluid" alt="Responsive image">
                     </div>
-                    <div class="col-md-6">
-                        <p>Hi! My name is Minolta Ndlovu and I am a sophomore at Bryn Mawr College studying Computer
-                            Science and Economics. <br> I am a front-end development enthusiast who is constantly seeking 
-                            out new learning opportunities. <br> As a women in Software Engineering I want to change the 
-                            perception of what an engineer looks like.In line with this, I am very passionate about women's
-                            education.  
-                        </p>                        
+                    <div class="col-md-7">
+                            <p>Hi! I am Minolta Ndlovu, a sophomore at Bryn Mawr College studying <span style="color: #ff6fa5"><strong>Computer Science</strong></span> and <span style="color: #ff6fa5"><strong>Economics.</strong></span> </p>
+                            <p>I am a front-end development enthusiast who is constantly seeking out new learning opportunities.</p>
+                            <p>My passion lies in <span style="color: #ff6fa5"><strong>women's education.</strong></span> On campus I am the president of Girls Who Code which is an organization that teaches women how to code.</p>
+                            <p>During my spare time, I love capturing moments through <span style="color: #ff6fa5"><strong>photography</strong></span> and playing <span style="color: #ff6fa5"><strong>basketball</strong></span></p>                        
+                        <div class="skill-mf">
+                            <h3 class="title">SKILLS</h3>
+                            <span>JAVASCRIPT</span> <span class="pull-right">50%</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>CSS3</span> <span class="pull-right">75%</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>Bootstrap</span> <span class="pull-right">60%</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span>HTML</span> <span class="pull-right">85%</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                     </div>
+                </div>                       
                 </div>
             </div>
         </section>
         <!--========= Projects Section ========-->
-       <section class="projects" id="projects">
+       <section class="projects mt-5" id="projects">
            <div class="container">
                <div class="section-title">
                    <h1>Projects</h1>
                </div>
                <div class="row d-flex justify-content-center">
-                   <div class="col-md-4">
-                       <div class="card" style="width: 18rem;">
+                   <div class="col-md-4 mb-5">
+                       <div class="card" style="width: 25rem;">
                        <img class="card-img-top" src="img/project-1.jpeg" alt="Card image cap">
                        <div class="card-body">
-                           <p class="card-text">An online version of the Simon game</p>
+                           <p class="card-text">A simple site for budget creation</p>
+                            <a href="https://mndlovu18.github.io/BudgetApp/" target="_blank">Live Link</a>
+                            <a href="https://github.com/mndlovu18/BudgetApp" target="_blank">Github Link</a>
                        </div>
                    </div>                       
                    </div>
-                   <div class="col-md-4">
-                       <div class="card" style="width: 18rem;">
+                   <div class="col-md-4 mb-5">
+                       <div class="card" style="width: 25rem;">
                        <img class="card-img-top" src="img/project-2.jpeg" alt="Card image cap">
                        <div class="card-body">
                            <p class="card-text">An online version of the Simon game</p>
+                           <a href="https://simoninpastels.surge.sh/" target="_blank">Live Link</a>
+                           <a href="https://github.com/mndlovu18/Simon_Game" target="_blank">Github Link</a>
                        </div>
                    </div>                       
                    </div>
                </div>
                <div class="row d-flex justify-content-center">
-                   <div class="col-md-4">
-                     <div class="card" style="width: 18rem;">
+                   <div class="col-md-4 mb-5">
+                     <div class="card" style="width: 25rem;">
                        <img class="card-img-top" src="img/project-3.jpeg" alt="Card image cap">
                        <div class="card-body">
-                           <p class="card-text">A website that provides maternal education to women of marginalized communities.</p>
+                           <p class="card-text">A site on maternal health</p>
+                           <a href="https://conceive.surge.sh/" target="_blank" >Live Link</a>
+                           <a href="https://github.com/mvmartinez/maternal-help" target="_blank" >Github Link</a>
                        </div>
                      </div>                              
                    </div>
-                   <div class="col-md-4">
-                       <div class="card" style="width: 18rem;">
+                   <div class="col-md-4 mb-5">
+                       <div class="card" style="width: 25rem;">
                            <img class="card-img-top" src="img/project-4.jpeg" alt="Card image cap">
                            <div class="card-body">
-                               <p class="card-text">A web development project for Girls Who Code.</p>
+                                <p class="card-text">A web development project for Girls Who Code.</p>
+                                <a href="https://stupefied-mcnulty-180858.netlify.app/" target="_blank" >Live Link</a>
+                                <a href="https://github.com/mndlovu18/HerWebSite" target="_blank" >Github Link</a>
                            </div>
                        </div>
                    </div>
@@ -122,9 +140,8 @@
        </section> 
 
 <!--========= Resume Section ========-->
-       <section id="resume" class="resume">
+    <section id="resume" class="resume">
       <div class="container">
-
         <div class="section-title">
           <h1>Resume</h1>
         </div>
@@ -144,12 +161,10 @@
               <p><em>Bryn Mawr College, Bryn Mawr, PA</em></p>
               <p>Bryn Mawr, a selective women's college with 1,380 undergraduates, is renowned for its academic excellence, diverse and close-knit community, and engagement with the world.</p>
             </div>
-
+            <h2 class="resume-title">Projects</h2>
             <div class="resume-item">
-              <h4>Projects</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Voice-2-Vocab (HackMIT hackathon)</em></p>
-              <a href="https://github.com/littealeaf28/flashcard-abc/tree/dev">github.com/flashcards</a>
+              <h4><a href="https://github.com/littealeaf28/flashcard-abc/tree/dev">Voice-2-Vocab (HackMIT hackathon)</a></h4>
+              <p><em>Bryn Mawr, PA</em></p>
               <ul>
                 <li>Built a web app to make learning a new language easy by creating vocabulary flashcards from a video uploaded in a foreign language</li>
                 <li>Generated a list of words from the video using Google’s speech to text API</li>
@@ -191,21 +206,18 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+              <div class="section-title mt-5">
+                    <h1>My Blog</h1>
+                </div>
             <div class="title-box text-center">
-              <h3 class="title-a">
-                Welocme to my Blog
-              </h3>
-              <p class="subtitle-a">
-                I am passionate about Computer Science education and I have recently started blogging on my journey learning new programming languages. Have fun reading!
-              </p>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af"><img src="..." alt="" class="img-fluid"></a>
+                <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-1-javascript-fundamentals-4eeacae9e8e5" target="_blank" ><img src="img/blog-img-1.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -213,15 +225,11 @@
                     <h6 class="category">Javascript</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af">JavaScript Fundamentals Part 1</a></h3>
-                <p class="card-description">
-                  In this article I go over values, variables, and data types in JS. 
-                </p>
+                <h4 class="card-title"><a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-1-javascript-fundamentals-4eeacae9e8e5" target="_blank">JavaScript Fundamentals Part 1</a></h4>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
-                    <img src="#!" alt="" class="rounded-circle">
+                  <a href="https://minoltandlovu.medium.com/" target="_blank">
                     <span class="author">Minolta Ndlovu</span>
                   </a>
                 </div>
@@ -234,7 +242,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af"><img src="#" alt="" class="img-fluid"></a>
+                <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af" target="_blank"><img src="img/blog-img-3.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -242,15 +250,11 @@
                     <h6 class="category">JavaScript</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af">JavaScript Fundamentals Part 2</a></h3>
-                <p class="card-description">
-                  In this 4-minute article I go over functions and arrays in JavaScript.
-                </p>
+                <h4 class="card-title"><a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af" target="_blank">JavaScript Fundamentals Part 2</a></h4>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#!">
-                    <img src="#" alt="" class="avatar rounded-circle">
+                  <a href="https://minoltandlovu.medium.com/" target="_blank">
                     <span class="author">Minolta Ndlovu</span>
                   </a>
                 </div>
@@ -265,17 +269,14 @@
     </section>
 <!--========= Contact Section ========-->
     <section id="contact">
-      <div class="container">
+      <div class="container mb-5">
+          <div class="section-title mt-5">
+            <h1>Contact Me</h1>
+           </div>
         <div class="row">
           <div class="col-sm-12">
-              <div id="contact" class="box-shadow-full">
                 <div class="row justify-content-center">
                   <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Let's get in Touch
-                      </h5>
-                    </div>
                     <div>
                       <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
@@ -313,7 +314,6 @@
                   </div>
                 </div>
               </div>
-          </div>
         </div>
       </div>
     </section>
