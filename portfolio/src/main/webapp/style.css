@@ -14,7 +14,7 @@
 # General
 ------------------------------------------*/
 * {
-    overflow-x: hidden; 
+    overflow-x: hidden;     
 
 }
 .section-title h1 {
@@ -114,7 +114,8 @@ header .nav-menu {
 # About Section
 ------------------------------------------*/
 .skill-mf .title {
-line-height: normal;    
+    overflow: hidden;
+    line-height: normal;    
     color:#D90368;
     font-weight: bold;
 }
@@ -153,6 +154,8 @@ line-height: normal;
 }
 
 .resume .resume-item h4 {
+  overflow: hidden;  
+  line-height: normal;  
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -162,6 +165,8 @@ line-height: normal;
 }
 
 .resume .resume-item h5 {
+  overflow: hidden;  
+  line-height: normal;  
   font-size: 16px;
   background: rgba(223, 217, 217, 0.637);
   padding: 5px 15px;
@@ -176,6 +181,14 @@ line-height: normal;
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+}
+
+/*----------------------------------------
+# Blog Section
+------------------------------------------*/
+.blog .category, .blog .card-title {
+    overflow: hidden;
+    line-height: normal;
 }
 
 /*--------------------------------------------------------------
