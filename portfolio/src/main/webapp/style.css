@@ -14,9 +14,12 @@
 # General
 ------------------------------------------*/
 * {
-    overflow-x: hidden;     
-
+    overflow-x: hidden;  
+}   
+a {
+    color: #7B31A1;
 }
+
 .section-title h1 {
   font-size: 32px;
   font-weight: bold;
@@ -49,6 +52,7 @@ header {
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     
 }
 header .nav-menu {
