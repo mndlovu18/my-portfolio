@@ -48,7 +48,7 @@ header {
     padding: 15px 0;
     height: 100vh;
     color: #fff;    
-    background-image: url(./img/IMG_0934.jpg);
+    background-image:linear-gradient(rgba(217, 3, 103, 0.205), rgba(0, 0, 0, 0.753)), url(./img/IMG_0934.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,9 @@ header .nav-menu {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: #7B31A1
+  color: #7B31A1;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 
@@ -113,6 +115,9 @@ header .nav-menu {
     color: #fff;
     background: #D90368;
 }
+#hero p {
+    font-size: 18px;
+}
 
 /*----------------------------------------
 # About Section
@@ -143,6 +148,8 @@ header .nav-menu {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
+  overflow: hidden;
+  line-height: normal;  
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
