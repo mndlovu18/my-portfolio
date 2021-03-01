@@ -59,9 +59,8 @@ header .nav-menu {
     justify-content: center;
     align-items: center;
     position: relative;
-    display: flex;
+    left: 35%;    
     justify-content: center;
-    left: 35%;
 }
 .nav-menu ul {
   list-style-type: none;
