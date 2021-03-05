@@ -89,7 +89,7 @@ header .nav-menu {
 ------------------------------------------*/
 #hero {
    position: relative;
-   left: 25%;
+   left: 30%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -98,8 +98,21 @@ header .nav-menu {
 #hero .about-btn {
     display: inline;
     position: relative;
-    left: 25%;
+    left: 18%;
 
+}
+.about-btn button {
+   background-color: rgb(216, 36, 90);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+#about-message {
+    position: relative;
+   left: 14%;
+   color:#DC698C;
+   padding-top: 20px;
 }
 
 #hero a {
