@@ -20,7 +20,7 @@ a {
     color: #7B31A1;
 }
 
-.section-title h1 {
+.section-title h1 { 
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -89,30 +89,11 @@ header .nav-menu {
 ------------------------------------------*/
 #hero {
    position: relative;
-   left: 30%;
+   left: 29%;
    display: flex;
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-}
-#hero .about-btn {
-    display: inline;
-    position: relative;
-    left: 15%;
-
-}
-.about-btn button {
-   background-color: rgb(216, 36, 90);
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 2px;
-}
-#about-message {
-   position: relative;
-   left: 13%;
-   color:#DC698C;
-   margin-top: 100px;
 }
 
 #hero a {
@@ -135,26 +116,35 @@ header .nav-menu {
 /*----------------------------------------
 # About Section
 ------------------------------------------*/
-.skill-mf .title {
-    overflow: hidden;
-    line-height: normal;    
-    color:#D90368;
-    font-weight: bold;
+.random-space {
+    background-color: #e17e76;
+    height: 290px;
 }
-.skill-mf span {
-  color: #4e4e4e;
+.about-btn {
+    margin-top: 50px;
+    position: relative;
+    left: 30%;
+    top: 5%;   
+}
+.about-btn button {
+    background-color: #9c8ade;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;    
+}
+.about-btn button:hover {
+    background-color: #ab6393;
 }
 
-.skill-mf .progress {
-  background-color: rgba(245, 188, 138, 0.788);
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #EE964B;
+#about-message {
+   position: relative;
+   left: 25%;
+   font-size: 25px;
+   color:#fed797;
+   font-weight: 700;
+   margin-top: 50px;
 }
 
 /*--------------------------------------------------------------
