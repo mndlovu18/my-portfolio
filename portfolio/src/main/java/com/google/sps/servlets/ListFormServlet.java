@@ -36,7 +36,6 @@ public class ListFormServlet extends HttpServlet {
       String nameValue = entity.getString("name");
       String emailValue = entity.getString("email");
       String subjectValue = entity.getString("subject");
-      
 
       Form formEl = new Form(id, nameValue, emailValue, subjectValue, textValue );
       formElements.add(formEl);

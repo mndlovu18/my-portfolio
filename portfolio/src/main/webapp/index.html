@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body>
+  <body onload="loadTasks()">
     <!--========= Header ========-->    
     <header>
         <div class="">
@@ -300,7 +300,7 @@
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button onclick="loadTasks()" type="submit" class="button button-a button-big button-rouded">
+                            <button type="submit" class="button button-a button-big button-rouded">
                             Send Message</button>
                           </div>
                         </div>
