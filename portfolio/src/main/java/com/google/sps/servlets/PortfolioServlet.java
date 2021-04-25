@@ -14,8 +14,8 @@ public class PortfolioServlet extends HttpServlet {
     response) throws IOException{
            
            //Array that contains hard-coded strings 
-           String facts[] = {"I am from Bulawayo in Zimbabwe!", " I am the last born child of 13 children!", 
-           " My name is the name of a camera!" };
+           String facts[] = {"I hail from Bulawayo in Zimbabwe!", " I am a Virgo!", 
+           " My name is a name of a camera!" };
 
            Gson gson = new Gson();
            String jsonResponse = gson.toJson(facts);
