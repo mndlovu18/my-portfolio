@@ -9,7 +9,7 @@ async function showMessage(){
     messageContainer.textContent = messageFromeServer[randomNumber];
 }
 
-/** Fetches form elements from the server and adds them to the DOM. */
+/** Fetches form elements from the server and adds them to the DOM. 
 function loadTasks() {
   fetch('/form-list').then(response => response.json()).then((formElements) => {
     const formListElement = document.getElementById('form-list');
@@ -20,7 +20,7 @@ function loadTasks() {
 }
 
 
-/** Creates an element that represents a form elements */
+/** Creates an element that represents a form elements 
 function createFormElement(formEl) {
   const formElement = document.createElement('li');
   formElement.className = 'form';
@@ -39,4 +39,4 @@ function createFormElement(formEl) {
   formElement.appendChild(messageElement);
 
   return formElement;
-}
+}*/

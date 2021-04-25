@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body onload="loadTasks()">
+  <body>
     <!--========= Header ========-->    
     <header>
         <div class="">
@@ -21,7 +21,6 @@
                     <ul>
                     <li><a href="#about">About</a></li> | 
                     <li><a href="#project">Projects</a></li> |
-                    <li><a href="#resume">Resume</a></li> |
                     <li><a href="#blog">Blog</a></li> |
                     <li><a href="#contact">Contact</a></li>                 
                     </ul>
@@ -92,18 +91,6 @@
                        </div>
                    </div>                       
                    </div>
-               </div>
-               <div class="row d-flex justify-content-center">
-                   <div class="col-md-4 mb-5">
-                     <div class="card" style="width: 25rem;">
-                       <img class="card-img-top" src="img/project-martenal-health.jpeg" alt="Card image cap">
-                       <div class="card-body">
-                           <p class="card-text">A site on maternal health</p>
-                           <a href="https://conceive.surge.sh/" target="_blank" >Live Link</a>
-                           <a href="https://github.com/mvmartinez/maternal-help" target="_blank" >Github Link</a>
-                       </div>
-                     </div>                              
-                   </div>
                    <div class="col-md-4 mb-5">
                        <div class="card" style="width: 25rem;">
                            <img class="card-img-top" src="img/project-gwc.jpeg" alt="Card image cap">
@@ -115,82 +102,10 @@
                            </div>
                        </div>
                    </div>
-               </div>
+               </div> 
            </div>
        </section> 
-
-<!--========= Resume Section ========-->
-    <section id="resume" class="resume">
-      <div class="container">
-        <div class="section-title">
-          <h1>Resume</h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <p>Minolta Ndlovu</p>
-              <p><em> Innovative and self-driven engineering student looking to create impact and equality 
-                through meaningful software development projects.
-               </em></p>
-            </div>
-
-            <h2 class="resume-title">Education</h2>
-            <div class="resume-item">
-              <h4>Bachelor of Arts</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Bryn Mawr College, Bryn Mawr, PA</em></p>
-              <p>Bryn Mawr, a selective women's college with 1,380 undergraduates, is renowned for its 
-                academic excellence, diverse and close-knit community, and engagement with the world.</p>
-            </div>
-            <h2 class="resume-title">Projects</h2>
-            <div class="resume-item">
-              <h4><a href="https://github.com/littealeaf28/flashcard-abc/tree/dev">Voice-2-Vocab 
-                (HackMIT hackathon)</a></h4>
-              <p><em>Bryn Mawr, PA</em></p>
-              <ul>
-                <li>Built a web app to make learning a new language easy by creating vocabulary flashcards from a 
-                video uploaded in a foreign language</li>
-                <li>Generated a list of words from the video using Google’s speech to text API</li>
-                <li>Classified the words in order of difficulty by using TensorFlow to train a model based on 
-                frequency, number of vowels, and syllabi</li>
-              </ul>
-            </div>            
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Developer Intern</h4>
-              <h5>June 2020 - September 2020</h5>
-              <p><em>Pitsburg, PA</em></p>
-              <ul>
-                <li>Designed and developed an optimized  landing page using React and Redux leading to a 10% 
-                increase in the click-through rate</li>
-                <li>Gained hands-on experience in Agile software development and practiced LEAN methodology 
-                in a dynamic environment </li>
-                <li>Contributed to regular project technical team meetings and help choose the tech stack</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>The Next Level JA Co.</h4>
-              <h5> Feb 2017 - Nov 2018</h5>
-              <p><em>Gweru, Zimbabwe</em></p>
-              <ul>
-                <li>Established and organized a campus program that supported 60+ women to gain entrepreneurial 
-                skills, 10% of the women have started businesses while in College</li>
-                <li>Recruited 25 highly skilled student employees through interviews and facilitated the growth 
-                of the company</li>
-                <li>Collaborated with a 10-member team to design a paper recycling process that reused cardboard 
-                to make stationary holders reducing land pollution by 20%</li>
-                <li>Organized 5 job shadowing opportunities for students and increased membership by 30%</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Resume Section -->
     </main> <!--End of main-->
-    
     <!--========= Blog Section ========-->    
     <section id="blog" class="blog">
       <div class="container">
@@ -208,7 +123,7 @@
             <div class="card card-blog">
               <div class="card-img">
                 <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-1-javascript-fundamentals-4eeacae9e8e5" 
-                target="_blank" ><img src="img/blog-img-1.jpg" alt="" class="img-fluid"></a>
+                target="_blank" ><img src="img/blog-img-2.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -235,7 +150,7 @@
             <div class="card card-blog">
               <div class="card-img">
                 <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-2-javascript-fundamentals-part-2-d0ba787f76af" 
-                target="_blank"><img src="img/blog-img-3.jpg" alt="" class="img-fluid"></a>
+                target="_blank"><img src="img/blog-img-1.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
@@ -258,6 +173,33 @@
               </div>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-1-javascript-fundamentals-4eeacae9e8e5" 
+                target="_blank" ><img src="img/blog-img-3.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">HTML DOM</h6>
+                  </div>
+                </div>
+                <h4 class="card-title"><a href="https://minoltandlovu.medium.com/my-journey-learning-javascript-week-3-dom-document-object-model-46e741cce2d5" 
+                target="_blank">Document Object Model (DOM)</a></h4>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="https://minoltandlovu.medium.com/" target="_blank">
+                    <span class="author">Minolta Ndlovu</span>
+                  </a>
+                </div>
+                <div class="post-date">
+                  <span class="bi bi-clock"></span> 5 mins
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -268,8 +210,8 @@
             <h1>Contact Me</h1>
            </div>
         <div class="row">
-          <div class="col-sm-8">
-                <div class="row justify-content-center">
+          <div class="col-sm-12">
+                <div class="row justify-content-start">
                   <div class="col-md-6">
                     <div>
                       <form action="/form-handler" method="POST" role="form" class="php-email-form">
@@ -299,7 +241,7 @@
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
-                          <div class="col-md-12 text-center">
+                          <div class="col-md-12">
                             <button type="submit" class="button button-a button-big button-rouded">
                             Send Message</button>
                           </div>
@@ -308,9 +250,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-4">
-                  <ul id="form-list"></ul>
               </div>
             </div>
         </div>
